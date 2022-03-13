@@ -11,7 +11,6 @@ module.exports = class extends Generator {
                default: this.appname
             }
         ]).then(answers => {
-            console.log('answers', answers)
             this.answers = answers
         })
     }
@@ -49,7 +48,6 @@ module.exports = class extends Generator {
             'src/main.js',
             '.env.development',
             '.env.production',
-            '.gitignore',
             'babel.config.js',
             'LICENSE',
             'package.json',
@@ -64,6 +62,12 @@ module.exports = class extends Generator {
                 this.answers
             )
         })
+
+        this.fs.copyTpl(
+            this.templatePath('gitignore'),
+            this.destinationPath('.gitignore'),
+            this.answers
+        )
 
     }
 }

@@ -1,7 +1,7 @@
 {
   "name": "generator-hlvues",
-  "version": "1.0.0",
-  "description": "基于Yeoman创建的vue脚手架",
+  "version": "1.0.2",
+  "description": "基于Yeoman创建的vue脚手架，脚手架基于vuecli的vue2模板，添加了vue-router，vuex，axios",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
