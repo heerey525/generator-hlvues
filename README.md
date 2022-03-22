@@ -1,6 +1,7 @@
 # generator-hlvues
 
 基于Yeoman创建的vue脚手架，脚手架基于vuecli的vue2模板，添加了vue-router，vuex，axios
+有PC和H5两个模板，H5（Vant）
 
 ## 安装教程
 
