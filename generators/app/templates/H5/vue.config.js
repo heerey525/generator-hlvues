@@ -43,6 +43,8 @@ module.exports = {
     },
   },
   chainWebpack: (config) => {
+    config.plugins.delete('prefetch') // 移除 prefetch 插件，去除预加载，减少消耗带宽，达到提升移动端页面打开速度
+
     config.resolve.alias
       .set('@', resolve('./src')) // key,value自行定义，比如.set('@@', resolve('src/components'))
       .set('_c', resolve('./src/components'))

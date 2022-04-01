@@ -60,6 +60,8 @@ module.exports = class extends Generator {
             'common/.env.production',
             'common/LICENSE',
             'common/README.md',
+            'common/.eslintrc.js',
+            'common/.prettierrc.js',
         ]
 
         let PCTemplates = [
