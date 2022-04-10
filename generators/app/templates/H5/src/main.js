@@ -3,6 +3,7 @@ import router from './router'
 import store from './store'
 import App from './App.vue'
 import Vconsole from 'vconsole'
+import '@/assets/css/normalize.css'
 
 import 'amfe-flexible'
 import './vantImport'

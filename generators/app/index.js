@@ -47,6 +47,7 @@ module.exports = class extends Generator {
             'common/public/index.html',
             'common/src/api/index.js',
             'common/src/assets/logo.png',
+            'common/src/assets/css/normalize.css',
             'common/src/router/index.js',
             'common/src/store/index.js',
             'common/src/utils/api.request.js',

@@ -1,6 +1,6 @@
 {
   "name": "generator-hlvues",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "基于Yeoman创建的vue脚手架，脚手架基于vuecli的vue2模板，添加了vue-router，vuex，axios",
   "main": "index.js",
   "scripts": {
